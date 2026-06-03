@@ -169,7 +169,7 @@ for ii = 2:ifinal
     xdghat = kron(eye(NAg),At) * xdghat;
 
     % Centralized observer
-    xhat = (Omega + Cglobt' * V * Cglobt)^(-1) * (Omega * x + Cglobt' * V * y);
+    xhat = (Omega + Cglobt' * V * Cglobt)^(-1) * (Omega * xhat + Cglobt' * V * y);
     Omega = Omega + Cglobt' * V * Cglobt;
     xhat = At * xhat;
     Omega = W - W * At * (Omega + At' * W * At)^(-1) * At' * W;
