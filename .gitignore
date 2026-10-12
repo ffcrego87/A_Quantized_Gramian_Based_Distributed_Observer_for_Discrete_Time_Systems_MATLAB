@@ -1,0 +1,14 @@
+# MATLAB temporary files
+*.asv
+*.m~
+*.mex*
+*.slxc
+*.slx.autosave
+slprj/
+
+# Local/cache files
+*.tmp
+*.bak
+*~
+.DS_Store
+Thumbs.db

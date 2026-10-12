@@ -1,0 +1,8 @@
+quantizer_parameter_p,quantization_levels,fixed_length_bits_per_scalar,scalars_per_message,payload_bits_per_message_excluding_range,external_directed_arcs,network_payload_bits_per_step_excluding_range,range_metadata_included
+20,1048577,21,1640,34440,40,1377600,0
+21,2097153,22,1640,36080,40,1443200,0
+22,4194305,23,1640,37720,40,1508800,0
+23,8388609,24,1640,39360,40,1574400,0
+24,16777217,25,1640,41000,40,1640000,0
+25,33554433,26,1640,42640,40,1705600,0
+26,67108865,27,1640,44280,40,1771200,0

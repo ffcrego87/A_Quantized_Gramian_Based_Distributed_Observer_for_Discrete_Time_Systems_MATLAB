@@ -1,0 +1,8 @@
+range_mode,p,maximum_relative_prefix_error_difference,passed
+global,23,0,1
+global,24,0,1
+global,25,0,1
+local,23,0,1
+local,24,0,1
+local,25,0,1
+local,30,0,1
